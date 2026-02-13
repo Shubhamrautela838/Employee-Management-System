@@ -1,16 +1,51 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich employee management web application built with **React** and **Vite**. This application streamlines workforce management with intuitive dashboards, robust authentication, and comprehensive task management capabilities.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔐 Authentication
+- Secure user login and registration
+- Role-based access control (Admin & Employee)
+- Session management and account security
 
-## React Compiler
+### 📊 Admin Dashboard
+- Complete employee management interface
+- Overview and statistics on tasks and employees
+- User activity monitoring
+- Employee performance insights
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👥 Employee Dashboard
+- Personal task overview
+- Task progress tracking
+- Performance statistics
+- Quick access to assigned tasks
 
-## Expanding the ESLint configuration
+### ✅ Task Management
+- **Create Tasks**: Admin can create and assign tasks to employees
+- **Assign Tasks**: Flexible task assignment to single or multiple employees
+- **Track Tasks**: Real-time task status updates (Pending, In Progress, Completed)
+- **Task Details**: Comprehensive task information including deadlines and descriptions
+- **Performance Analytics**: Track task completion rates and productivity
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 Additional Features
+- User-friendly interface with intuitive navigation
+- Responsive design for desktop and tablet devices
+- Real-time data updates
+- Efficient workflow management
+- Task filtering and sorting options
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React** - Modern UI library for building interactive components
+- **Vite** - Fast build tool and development server
+- **JavaScript** (98.1%) - Primary programming language
+- **HTML** (1.4%) - Markup structure
+- **CSS** (0.5%) - Styling and layout
+## 🚀 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Shubhamrautela838/Employee-Management-System.git
+   cd Employee-Management-System
